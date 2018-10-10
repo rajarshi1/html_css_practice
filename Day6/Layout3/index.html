@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Day3 Project</title>
+		<link rel="stylesheet" type="text/css" href="Assets/style.css">	
+	</head>
+    <body>
+        <main>
+            <h1>
+                Side-By-Side Postioning Demo
+              </h1>
+              <article>
+                <div class="inline-blocks">
+                  These two divs are positioned next to one another using <mark>display: inline-block</mark>
+                </div>
+                <div class="inline-blocks">
+                    Notice the space between them. It occurs because of my carriage return in the HTML which I've used to keep the code organized. I've used a reset ensure no elements should have any default margins or padding. (I did add a button margin to make it easier to read.) This space is actually a space character rendered just as it would be between two inine elements.
+                </div>
+              </article>
+              <article>
+                  <div class="inline-blocks1 float">
+                    These two positioned using <mark>float: left</mark>.
+                  </div>
+                  <div class="inline-blocks1 float">
+                    you can see that, even though the elements are spaced in the code, the space is not actually rendered on the same page. This may not be a huge deal in these first examples, but.. 
+                  </div>
+              </article>
+              <br>
+              <br>
+              <article>
+                <div class="clear"></div>  
+                <div class="blocks">
+                  What if I want my sdie-by-side elements to take up the full width of the parent element? I can set the width of each to 50% , right?
+                </div>
+              
+              
+              
+                <div class="blocks">
+                  Wrong! Because, together, the two inline block elements will addd up to 100% of the available width, but that doesn't account for the space between.
+                </div>
+
+              </article>
+          
+              <article>
+                <div class="inline-blocks2 float">If i do the same thing with floated elements... </div>
+                <div class="inline-blocks2">/The two elements are Side-By-Side just as I intended and fill the entire width of the viewport.</div>
+              </article>  
+        </main>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
