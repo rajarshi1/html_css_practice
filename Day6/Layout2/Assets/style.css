@@ -50,21 +50,25 @@ hr{
     border-color: rgb(212, 212, 212);
   }
 main{
-    padding:50px
+    /* padding:5opx; */
+    top: 0;
 }  
+
 .black{
     height:30px;
     width: vw;
     background: black;
-    padding: 10px;
+    padding: 30px;
     line-height: 30px;
+    top:0;
+    color:white;
 }
 .grey{
     height:30px;
     width: vw;
     background:grey;
-    padding: 10px;
-    line-height: 30px;
+    padding: 30px;
+    line-height:30px;
 }
 .center{
     display: block;
@@ -84,12 +88,26 @@ h3{
     font-weight: bold;
     font-size: 25px; 
     line-height: 2;
+    padding:30px;
 }
 h4{
     font-weight: bold;
     font-size: 15px; 
+    padding:30px;
 
 }
 /* .fixed{
     position:fixed;
 } */
+
+.article{
+    padding:30px;
+     
+}
+p{
+    padding:30px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}

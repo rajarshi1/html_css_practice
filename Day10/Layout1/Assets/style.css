@@ -27,9 +27,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -44,63 +44,78 @@ table {
 }
 
 /* main css */
-h1{
-    font-weight: bold;
-    font-size: 30px; 
-}
-.inline-blocks{
-    display:inline-block;
-    width: 350px;   
-    background: pink;
-    margin-top: 50px;
-    border-radius: 10px;
-    vertical-align:top; 
-    padding:10px;
-}
-.inline-blocks1{
-    display:inline-block;
-    width: 350px;   
-    background: green;
-    margin-top: 50px;
-    border-radius: 10px;
-    vertical-align:top; 
-    padding:10px;
-}
-
-.float{
-  float: left;
- 
-}
-
-.blocks{
-    display:block;
-    width: 350px;   
-    background: pink;
-    margin-top: 20px;
-    border-radius: 10px;
-    vertical-align:top; 
-    padding:10px;
-
-}
-.clear{
-    clear:both;
-}
-.inline-blocks2{
-    display:inline-block;
-    width: 40%;   
-    background: green;
-    margin-top: 50px;
-    border-radius: 10px;
-    vertical-align:top; 
-    padding:10px;
-}
-main{
-    margin:0 auto;
-    width:800px;
-    background: whitesmoke;
-    padding-left:10px;
-    padding-right:10px;
-}
 body{
+    background: rgb(197, 193, 184);
+    color: #333333;
+    font-family: "Roboto mono", monospace;
+}
+
+.container{
+    width:960px;
+    margin:0 auto;
+    /* background-color: rgb(209, 226, 226); */
+}
+
+header {
+    background: #FF5E12;    
+}
+
+footer{
     background: grey;
+}
+
+
+.list-item{
+    display:inline-block;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.list a {
+    color:white;
+    text-decoration: none;
+}
+
+
+.box{
+    display:inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    background:#005979;
+    color: white;
+    margin-right: 3%;
+    height:350px;
+    vertical-align: top;
+    margin-top:50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px black;
+    padding:20px;
+    line-height: 1.5;
+}
+
+.section2 {
+    padding-bottom:20px;
+}
+dt {
+    font-size:18px;
+    text-transform: capitalize;
+    padding-top:20px;
+    padding-bottom: 10px;
+
+}
+dd {
+    padding-left:15px;
+    line-height: 1.5;
+}
+.level1{
+    padding-left:10px;
+}
+.level2{
+    padding-left:10px;
+}
+.levelx{
+    margin-left:5px;
+    padding-left:10px;
 }

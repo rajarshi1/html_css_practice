@@ -64,12 +64,12 @@ text-align: left;
 }
 
 .box{
-display: inline-block;
-width: 100px;
-height: 50px;
-background: rgb(221, 243, 144);
-border: none;
-margin: 10px;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background: rgb(221, 243, 144);
+	border: none;
+	margin: 10px;
 }
 
 .box2{
