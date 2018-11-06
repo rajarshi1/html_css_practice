@@ -105,7 +105,7 @@
 
   h1{
     font-size:3.0em;
-    padding: 30px 300px;
+    /* padding: 30px 300px; */
   }
 
   h2{
@@ -154,6 +154,9 @@
 .container1 img{
     width: 100%;
 }
+.container1 .box2{
+    background: #f5e3d7;
+}
 .container2{
 display: grid;
 grid-template-columns: repeat(4,1fr);
@@ -161,7 +164,16 @@ grid-template-columns: repeat(4,1fr);
 }
 .container2 .box1{
     grid-column: span 2;
+    background: #ffffff;
 }
+.container2 .box2{
+    background-image: url(../Media/about-img.jpg);
+    background-size: cover;
+}
+.container2 .box3{
+  background: #ecaf4e;
+}
+
 .container2 img{
     width: 100%;
 }
@@ -169,7 +181,17 @@ grid-template-columns: repeat(4,1fr);
 .container3{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    justify-content: right;
     /* grid-gap: 5px; */
+}
+.container3 .box1{
+  background: #ecaf4e;
+}
+#black{
+  background: black;
+}
+#white{
+  background: white;
 }
 .container3 .box2{
     background: #fc683e;
@@ -185,6 +207,9 @@ grid-template-columns: repeat(4,1fr);
 .container4 .box2{
     background: #fc683e;
 }
+.container4 .box3{
+    background: #ecaf4e;
+}
 .container5{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -194,8 +219,12 @@ grid-template-columns: repeat(4,1fr);
     grid-column: span 2;
     background: #fc683e;
 }
+
 .container5 img{
     width: 100%;
+}
+.form{
+  display: block;
 }
 .container6{
     display: grid;
@@ -205,6 +234,7 @@ grid-template-columns: repeat(4,1fr);
 .container6 .box1{
     text-align: center;
     padding: 20px;
+    background: #fc683e;
 }
 .container6 .box2{
     background: whitesmoke;
