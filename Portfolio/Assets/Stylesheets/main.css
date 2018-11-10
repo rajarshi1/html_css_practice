@@ -1,0 +1,159 @@
+
+/* main css */
+html {
+  scroll-behavior: smooth;
+}
+.container-fluid {
+  /* display: inline-block; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid li{
+  display: inline-block;
+}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.img-circle {
+    border-radius: 50%;
+  
+}
+.color-me{
+  color:#FF3030;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-pills {
+  font-family:Lobster;
+  font-size: 30px;
+  color:black;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.block{
+  background-color:rgba(255, 255, 255, 0.8);
+  /* opacity:.8; */
+  margin-top:80px;
+  padding-bottom:50px;
+  padding-top:20px;
+  text-align: center;
+}
+.block img{
+  opacity: 1;
+}
+
+body{
+  font-family:Lobster;
+  color:black;
+  background-image: url(https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  padding:120px;
+  margin-top:0px;
+  font-size:80px;
+  color:black;
+}
+
+h2{
+  padding:0px;
+  margin-top:-120px;
+  margin-bottom:30px;
+}
+
+p{
+  padding:-50px;
+  margin-top:-px;
+  margin-bottom:0px;
+  font-size:30px;
+}
+
+.btn-default{
+  border-color:white;
+  font-size:30px;
+  color:black
+}
+
+.pageOne{
+  height:800px;
+  margin-top:-70px;
+}
+
+.pageTwo{
+ height:800px;
+  margin-top:-70px;
+}
+
+.pageThree{
+ height:800px;
+  margin-top:-70px;
+}
+
+.progress-bar{
+  height:100px;
+  margin-top: 0px;
+  font-size:20px;
+   margin-bottom: 50px;
+    height: 30px;
+    border-radius: 20px;
+    padding-top: 0px;
+}  
+
+.pageFour{
+ height:800px;
+  margin-top:-70px;
+}
+
+.pageFive{
+ height:800px;
+  margin-top:-70px;
+}
+
+form{
+  width:500px;
+  margin:0 auto 50px;
+  font-size:20px
+}
+
+input, textarea{
+  border:3px solid #FF3030;
+  width: 100%;
+}
+
+.Contact-info-group
+label{
+  width: 50%;
+  padding-right:10px;
+  float: left;
+}
+
+label{
+  display: block;
+  margin-bottom: 20px;
+}
+
+span{
+  display: block
+}
